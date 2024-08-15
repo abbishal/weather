@@ -44,7 +44,7 @@ The Weather Information App is a Java-based application that provides real-time 
 
    Alternatively, you can run the JAR file:
    ```bash
-   java --module-path /path/to/javafx-sdk-17/lib --add-modules javafx.controls -jar target/weather-1.0-SNAPSHOT.jar
+   java --module-path /path/to/javafx-sdk-17/lib --add-modules javafx.controls -jar weather-1.0-SNAPSHOT.jar
    ```
 
    Replace `/path/to/javafx-sdk-17/lib` with the actual path to your JavaFX SDK.
@@ -60,10 +60,10 @@ The Weather Information App is a Java-based application that provides real-time 
 
 ## Implementation Details
 
-- **Main Class**: `com.assignment.weather.WeatherApp`
+- **Main Class**: `com.assignment.WeatherApp`
   - This class is the entry point of the application and is responsible for setting up the JavaFX GUI and handling user interactions.
 
-- **Weather Service**: `com.assignment.weather.WeatherService`
+- **Weather Service**: `com.assignment.WeatherService`
   - This class handles communication with the OpenWeatherMap API, fetching weather data and parsing the JSON response.
 
 - **Dependencies**:
@@ -77,18 +77,11 @@ The Weather Information App is a Java-based application that provides real-time 
   │   ├── java/
   │   │   └── com/
   │   │       └── assignment/
-  │   │           └── weather/
   │   │               ├── WeatherApp.java
   │   │               └── WeatherService.java
   │   └── resources/
   └── test/
   ```
-
-## Customization
-
-- **Background Images**: You can replace the default background images for morning, afternoon, and evening by placing new images in the `resources` folder and updating the image paths in the `WeatherApp.java` file.
-
-- **API Key**: Replace the placeholder API key in `WeatherService.java` with your own from OpenWeatherMap.
 
 ## Troubleshooting
 
