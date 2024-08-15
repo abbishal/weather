@@ -26,8 +26,8 @@ The Weather Information App is a Java-based application that provides real-time 
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/weather-app.git
-   cd weather-app
+   git clone https://github.com/abbishal/weather.git
+   cd weather
    ```
 
 2. **Build the Project**
